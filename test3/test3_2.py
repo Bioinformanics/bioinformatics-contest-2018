@@ -30,7 +30,7 @@ def find_tandem_repeats(sequence):
 
     if not repeat_found:
         raise Exception('Repeat not found!')
-    return ' '.join([str(start1+1), str(repeat_len), str(repeat_len)])
+    return ' '.join([str(start1), str(repeat_len), str(repeat_len)])
 
 #print(find_tandem_repeats('ATACACTAGCG'))
 #print(find_tandem_repeats('GTGGGACATACATAG'))
